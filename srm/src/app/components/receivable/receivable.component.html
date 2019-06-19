@@ -1,0 +1,74 @@
+        <div class="breadcrumb">{{breadcrumb}}</div>
+        <div class="panel-title">
+          <div class="col1">
+            <div class="logo">
+              <img src="./assets/images/globe-srm.png">
+            </div>                      
+            <span class="title">Recebíveis</span>  
+          </div>
+          <div class="col2">
+          <div class="product">
+            Produto:
+          </div>
+          <div class="product-list">
+            <span class="product-title">Todos</span>
+            <i class="fas fa-angle-double-down"></i>
+          </div>            
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card1">
+            <div class="box"><span class="title">Atalhos</span></div>
+            <div class="link-box">
+              <div class="operation"> 
+                <p class="operation-title">Operacional</p>                
+                <div class="operation-buttons">                           
+                  <div class="button">
+                    <span class="button-title">Envio</span>
+                  </div>
+                  <div class="button">
+                    <span class="button-title">Assinatura</span>
+                  </div>
+                </div>
+                <div class="operation-buttons">        
+                  <div class="button">
+                    <span class="button-title">Envio de Duplicatas</span>
+                  </div>
+                  <div class="button">
+                    <span class="button-title">Assinatura Digital</span>
+                  </div>
+                </div>
+                <div class="operation-buttons">       
+                  <div class="button">
+                    <span class="button-title">Nova Operação</span>
+                  </div>
+                </div>                 
+              </div>
+              <div class="general">
+                <p class="general-title"> Geral </p>
+                <div class="general-buttons">                  
+                  <div class="button">
+                    <span class="button-title">Carteiras</span>
+                  </div>
+                  <div class="button">
+                    <span class="button-title">Intruções</span>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="box">
+              <span class="title">Alertas</span>
+              <span class="alert-title">Últimos 5 dias</span>             
+            </div>
+            <div class="alert-content" *ngFor="let item of alertItems; let i=index">
+              <div class="alert-description">{{item.description}}</div>
+              <div *ngIf="i === 0">&nbsp;</div>
+              <div class="button" *ngIf="i !== 0">
+                <span class="button-title">Ações</span>
+                <i class="fas fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>

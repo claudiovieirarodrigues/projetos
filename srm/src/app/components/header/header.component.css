@@ -1,0 +1,114 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    margin: 1px solid #ccc;
+}
+
+.right-menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center; 
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 38px;
+    margin-left: 10px;
+    border: none;
+}
+
+.groups {
+    color: #666;
+    font-family: 'Open Sans';
+    font-size: 14px;    
+}
+
+.aggreged-view {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    color: #666;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    height: 43px;
+    width: 180px;
+    border: 1px solid #4997D1;
+    margin: 0px 20px 0px 10px;
+    padding: 0px 20px 0px 10px;    
+}
+
+.view-title {
+    width: 100%;
+    text-align: center;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-right: 30px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #00233D;
+    font-family: 'Open Sans';
+    height: 45px;
+    width: 200px;
+}
+
+i.far.fa-user {
+    margin-right: 15px;
+    font-size: 11px;    
+    color: #fff;
+}
+
+.login .user {
+    font-size: 14px;
+    color: #fff;   
+}
+
+i.fa-angle-double-down {
+    font-size: 15px;
+    color: #4997D1;
+    margin-left: 15px;
+}
+
+.bell {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #4997D1;
+    width: 60px;
+    height: 45px;
+}
+
+i.far.fa-bell {
+    font-size: 11px;
+    color: #fff;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -3px;
+    margin-top: -10px;
+    color: #fff;
+    background-color: #F20D0D;
+    width: 17px;
+    height: 17px;
+    font-size: 11px;
+}

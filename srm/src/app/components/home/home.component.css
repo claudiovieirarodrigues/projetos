@@ -1,0 +1,43 @@
+.container-border {
+    margin: 15px;
+    padding: 8px;
+    background-color: #ccc;
+    -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.15);
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.15);
+}
+
+.container{
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';    
+}
+
+app-menu {
+    width: 15%;
+}
+
+.all-content {
+    width: 85%;
+
+    border-left: 3px solid #EBEBEB;  
+}
+
+.content {
+    height: 449px;
+    background-color:#EBEBEB;     
+}
+
+.breadcrumb {
+    padding: 10px 0px 10px 45px;    
+    color: #666;
+    font-size: 14px;    
+}
+
+.breadcrumb, .product {
+    color: #666;
+    font-size: 14px;    
+}
